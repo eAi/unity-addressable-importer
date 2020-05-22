@@ -63,8 +63,8 @@ public class AddressableImporter : AssetPostprocessor
             }
         }
 
-        if (dirty)
-            AssetDatabase.SaveAssets();
+        //if (dirty)
+        //    AssetDatabase.SaveAssets();
     }
 
     static AddressableAssetGroup CreateAssetGroup<SchemaType>(AddressableAssetSettings settings, string groupName)
